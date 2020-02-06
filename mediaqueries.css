@@ -1,0 +1,640 @@
+/* MediaQueries */
+@media screen and (max-width: 2000px) 
+{
+    body {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    /* header */
+    .menu a {
+        padding: 0 25px;
+    }
+    .topbar ul {
+        margin-right: 10px;
+    }
+    .logo {
+        margin-right: 180px;
+    }
+    .c-slider {
+        height: 92.33px;
+    }
+    .slideshow .slider-text {
+        margin-top: -10px;
+        line-height: 25px;
+        padding: 0px 290px;
+    }
+    .slideshow .slider-text strong {
+        line-height: 40px;
+        font-size: 2.8rem;
+    }
+    .slideshow .slider-text p {
+        font-size: 1.07rem;
+    }
+    .slideshow .slider-text button {
+        font-size: 1.4rem;
+        padding: 16px 20px;
+        box-shadow: 0 5px #4F98AF;
+    }
+    .slideshow .slider-text button:hover {
+        transform: translateY(1px);
+        box-shadow: 0 3px #4F98AF;
+    }
+    .slideshow .slider-text button:active {
+        transform: translateY(3px);
+        box-shadow: 0 2px #4F98AF;
+    }
+    .container-slider nav a {
+        height: 75px;
+        width: 75px;
+    }
+    .preview {
+        left: -38px;
+    }
+    .next {
+        right: -38px;    
+    }
+    .preview i {
+        padding-left: 32px;
+        font-size: 19px;
+    }
+    .next i {
+        padding-right: 32px;
+        font-size: 19px;
+    }
+    #timeline-slider-one {
+        bottom: 7.5px;
+    }
+    
+    #timeline-slider-two {
+        bottom: 7.5px;
+    }
+
+    /* section nos services */
+    .feature {
+        bottom: 5px;
+    }
+    .feature hr {
+        width: 140px;
+    }
+    .container-list-service {
+        line-height: 28px;
+        margin-left: 40px;
+        width: 48%;
+    }
+    /* section portfolio */
+    .container-projets {
+        width: 100%;
+    }
+    .projets {
+        margin: 10px;
+    }
+    .projets-fig {
+        bottom: 8px;
+    }
+    .projets-fig h2 {
+        font-size: 1.2rem;
+    }
+    .projets .far {
+        font-size: 1rem;
+        right: 34px;
+    }
+    .circle-far {
+        width: 50px;
+        height: 50px;
+        bottom: 61px;
+        right: 18px;
+    }
+
+    /* section contact */
+    .map {
+        height: 600px;
+    }
+    .calc-blue {
+        height: 600px;
+    }
+    .formulaire {
+        line-height: 24px;
+    }
+    .formulaire form {
+        width: 350px;
+        height: 80%;
+        line-height: 20px;
+        margin: 60px 0;
+    }
+    .formulaire form h2 {
+        font-size: 150%;
+    }
+    .formulaire input {
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .formulaire textarea {
+        height: 150px;
+    }
+    .formulaire .message {
+        font-size: 0.9rem;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+    body {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    /* header */
+    .menu a {
+        padding: 0 13px;
+    }
+    .topbar ul {
+        margin-right: 40px;
+    }
+    .logo {
+        margin-right: 120px;
+    }
+    .c-slider {
+        height: 92.33px;
+    }
+    .slideshow .slider-text {
+        margin-bottom: 20px;
+        line-height: 10px;
+        padding: 0px 220px;
+    }
+    .slideshow .slider-text strong {
+        line-height: 35px;
+        font-size: 2rem;
+    }
+    .slideshow .slider-text p {
+        font-size: 0.75rem;
+    }
+    .slideshow .slider-text button {
+        font-size: 1rem;
+        padding: 12px 18px;
+        box-shadow: 0 5px #4F98AF;
+    }
+    .slideshow .slider-text button:hover {
+        transform: translateY(1px);
+        box-shadow: 0 3px #4F98AF;
+    }
+    .slideshow .slider-text button:active {
+        transform: translateY(3px);
+        box-shadow: 0 2px #4F98AF;
+    }
+    .container-slider nav a {
+        height: 60px;
+        width: 60px;
+    }
+    .preview {
+        left: -30px;
+    }
+    .next {
+        right: -30px;    
+    }
+    .preview i {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .next i {
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    /* section nos services */
+    .feature hr {
+        width: 100px;
+    }
+    .circle {
+        width: 17px;
+        height: 17px;
+        border: 4px solid #FFF;
+        top: -8px;
+    }
+    .pc-list {
+        width: 100%;
+    }
+    .pc {
+        width: 650px;
+    }
+    .container-list-service {
+        margin-right: 20px;
+        margin-left: 40px;
+        width: 45%;
+        height: 500px;
+    }
+
+    /* section portfolio */
+    .menu-portfolio {
+        width: 400px;
+        height: 45px;
+        margin: 80px auto;
+    }
+    .menu-portfolio > label {
+        height: 45px;
+    }
+    .projets-fig {
+        line-height: 10px;
+        padding: 0 10px;
+    }
+    .projets .far {
+        font-size: 0.9rem;
+        top: -4px;
+        right: 26px;
+    }
+    .circle-far {
+        width: 45px;
+        height: 45px;
+        bottom: 41px;
+        right: 12px;
+    }
+
+    /* section contact */
+    .map, .calc-blue {
+        height: 550px;
+    }
+    .formulaire {
+        line-height: 22px;
+    }
+    .formulaire form {
+        width: 320px;
+        height: 75%;
+        line-height: 18px;
+        margin: 35px 0;
+    }
+    .formulaire form h2 {
+        font-size: 140%;
+    }
+    .formulaire input {
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .formulaire textarea {
+        height: 150px;
+    }
+    .formulaire .message {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    body {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    /* header */
+    .menu a {
+        padding: 0 9px;
+    }
+    .topbar ul {
+        margin-right: 60px;
+    }
+    .logo {
+        margin-right: 100px;
+    }
+    .c-slider {
+        height: 88.33px;
+    }
+    .slideshow .slider-text {
+        margin-bottom: 0px;
+        line-height: 8px;
+        padding: 0px 170px;
+    }
+    .slideshow .slider-text strong {
+        line-height: 24px;
+        font-size: 1.6rem;
+    }
+    .slideshow .slider-text p {
+        font-size: 0.62rem;
+    }
+    .slideshow .slider-text button {
+        font-size: 0.8rem;
+        padding: 7px 12px;
+        box-shadow: 0 4px #4F98AF;
+    }
+    .container-slider nav a {
+        height: 50px;
+        width: 50px;
+    }
+    .preview {
+        left: -27px;
+    }
+    .next {
+        right: -27px;    
+    }
+    .preview i {
+        padding-left: 22px;
+        font-size: 12px;
+    }
+    .next i {
+        padding-right: 22px;
+        font-size: 12px;
+    }
+
+    /* section nos services */
+    .feature hr {
+        width: 80px;
+    }
+    .feature {
+        bottom: 3px;
+    }
+    .pc {
+        width: 550px;
+    }
+    .container-list-service {
+        margin-left: 10px;
+        height: 400px;
+    }
+    .list-service {
+        height: 140px;
+        line-height: 23px;
+    }
+    .logo-service {
+        width: 90px;
+        height: 90px;
+        margin-right: 5px;
+        top: 15px;
+    }
+    .logo-circle1 {
+        width: 65px;
+        height: 65px;
+    }
+    .logo-circle2 {
+        left: 55px;
+        top: 23px;
+    }
+    .logo-service .fas {
+        font-size: 25px;
+        left: 20px;
+        top: 1px;
+    }
+
+    /* section portfolio */
+    .menu-portfolio {
+        width: 350px;
+        height: 40px;
+        margin: 60px auto;
+    }
+    .menu-portfolio > label {
+        height: 40px;
+    }
+    .menu-portfolio .fas {
+        font-size: 24px;
+        bottom: -19px;
+    }
+    .container-projets {
+        width: 100%;
+    }
+    .projets {
+        margin: 5px;
+        width: 22%;
+    }
+    .projets-fig {
+        line-height: 10px;
+        padding: 0 10px;
+        bottom: 7px;
+    }
+    .projets-fig h2 {
+        font-size: 1rem;
+    }
+    .projets .far {
+        font-size: 0.8rem;
+        top: -5px;
+        right: 24.5px;
+    }
+    .circle-far {
+        width: 40px;
+        height: 40px;
+        bottom: 38px;
+        right: 12px;
+    }
+
+    /* section contact */
+    .map, .calc-blue {
+        height: 500px;
+    }
+    .formulaire {
+        line-height: 22px;
+    }
+    .formulaire form {
+        width: 300px;
+        height: 80%;
+        line-height: 18px;
+        margin: 15px 0;
+    }
+    .formulaire form h2 {
+        font-size: 140%;
+    }
+    .formulaire input {
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .formulaire textarea {
+        height: 130px;
+    }
+    .formulaire .message {
+        font-size: 0.8rem;
+        padding: 8px 0 22px 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo img {
+        width: 200px;
+        height: auto;
+    }
+    .logo {
+        margin-right: 80px;
+    }
+    .menu a:hover {
+        padding-top: 27px;
+    }
+    .c-slider {
+        height: 75.01px;
+    }
+    .slideshow .slider-text {
+        line-height: 8px;
+        padding: 0px 130px;
+    }
+    .pc-list {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .pc {
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+    .container-list-service {
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 40px;
+    }
+    .list-service {
+        line-height: 24px;
+    }
+    .projets {
+        width: 40%;
+        margin: 10px;
+    }
+    .projets-fig {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .topbar {
+        padding: 30px 0;
+        position: absolute;
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    #accueil .menu ul {
+        padding-top: 20px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .menu a:hover {
+        border: none;
+    }
+    .c-slider {
+        height: 153.68px;
+    }
+    .slideshow .slider-text {
+        line-height: 6px;
+        padding: 0px 100px;
+    }
+    .slideshow .slider-text strong {
+        line-height: 20px;
+        font-size: 1.2rem;
+    }
+    .slideshow .slider-text p {
+        font-size: 0.5rem;
+    }
+    .slideshow .slider-text button {
+        font-size: 0.6rem;
+        padding: 5px 9px;
+        box-shadow: 0 4px #4F98AF;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .logo img {
+        width: 261px;
+        height: auto;
+    }
+    #accueil .menu ul {
+        padding: 25px 0;
+    }
+    .slideshow {
+        display: none;
+    }
+    #services {
+        padding: 0 10px;
+        margin-top: 150px;
+    }
+    .pc-list {
+        margin-top: 20px;
+    }
+    .container-list-service {
+        width: 100%;
+        height: 600px;
+    }
+    .list-service {
+        height: 200px;
+    }
+    .projets {
+        margin: 10px;
+        width: 80%;
+    }
+    .projets-fig {
+        line-height: 15px;
+        bottom: 6px;
+        padding: 0 10px 10px 10px;
+    }
+    .projets-fig h2 {
+        font-size: 1.2rem;
+    }
+    .projets .far {
+        font-size: 0.9rem;
+        top: -7px;
+        right: 34.5px;
+    }
+    .circle-far {
+        width: 50px;
+        height: 50px;
+        bottom: 61px;
+        right: 18px;
+    }
+    #contact {
+        margin: 5px;
+    }
+    .map, .calc-blue {
+        height: 300px;
+    }
+    .formulaire {
+        width: 100%;
+        margin-top: 330px;
+        height: 400px;
+        left: 0;
+    }
+    .formulaire form {
+        background-color: rgb(156, 154, 154, 0.3);
+        padding: 30px 50px;
+        height: 450px;
+        width: 550px;
+        margin: 5px 0;
+    }
+    .formulaire .message {
+        font-size: 0.75rem;
+        padding: 10px 0 25px 0;
+    }
+    .menu-portfolio {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container-list-service {
+        width: 100%;
+        height: 700px;
+    }
+    .list-service {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container-list-service {
+        width: 100%;
+        height: 900px;
+    }
+    .list-service {
+        height: 340px;
+    }
+}

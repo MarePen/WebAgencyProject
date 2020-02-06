@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+       <head>
+
+         <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="mediaqueries.css">
+          <script src="https://kit.fontawesome.com/055b01b2b2.js"></script>
+         <title>WebAgency, l'agence de toutes vos envies!</title>
+       </head>
+
+<body>
+    <!-- barre menu -->
+    <header id="accueil">
+        <div class="topbar">
+            <figure class="logo">
+                <img src="images/logo.png" alt="Logo du site">
+            </figure>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#accueil" class="contact">Accueil</a></li>
+                    <li><a href="#services-content">Services</a></li>
+                    <li><a href="#portfolio-projet">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <!-- slogan/slides -->
+        <div class="slideshow">
+            <div id="one" class="container-slider">
+                <div class="c-slider"></div>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="images/slider1.jpg" alt="">
+                    </div>
+                    <nav>
+                        <a class="preview" href="#two"><i class="fas fa-chevron-left"></i></a>
+                        <a class="next" href="#two"><i class="fas fa-chevron-right"></i></a>
+                    </nav>
+                    <div class="slider-text">
+                        <strong><span>WebAgency</span> : l'agence de tous<br />
+                        vos projets !</strong><br /> 
+                        <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p><br />
+                        <button>Plus d'infos</button>
+                    </div>
+                    <span id="timeline-slider-one"></span>
+                </div>
+            </div>
+            <div id="two" class="container-slider">
+                <div class="c-slider"></div>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="images/slider2.jpg" alt="">
+                    </div>
+                    <nav>
+                        <a class="preview" href="#one"><i class="fas fa-chevron-left"></i></a>
+                        <a class="next" href="#one"><i class="fas fa-chevron-right"></i></a>
+                    </nav>
+                    <div class="slider-text">
+                        <strong><span>WebAgency</span> : l'agence de tous<br />
+                        vos projets !</strong><br /> 
+                        <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p><br />
+                        <button>Plus d'infos</button>
+                    </div>
+                    <span id="timeline-slider-two"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="services-content"></div>
+    </header>
+
+    <!-- nos services -->
+    <section id="services">
+        <div class="body-services">
+            <div class="bloc-services">
+                <h1>Nos services</h1>
+                <div class="feature">
+                    <hr />
+                    <div class="circle"></div>
+                </div>
+                <p> Notre agence WEBAGENCY vous accompagne dans la réalisation de votre projet de création de site web</p>
+            </div>
+            <div class="pc-list">
+                <div class="pc">
+                    <img src="images/pc.png" alt="Photo d'écran ordinateur">
+                </div>
+                <div class="container-list-service">
+                    <div class="list-service">
+                        <div class="logo-service">
+                            <div class="logo-circle1"></div>
+                            <div class="logo-circle2"></div>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="service-text">
+                            <h2>UX design</h2>
+                            <p>Conception de l’identité visuelle de votre activité. Une image de marque professionnelle, cohérente et élégante de votre activité sur tous vos supports.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-service">
+                        <div class="logo-service">
+                            <div class="logo-circle1"></div>
+                            <div class="logo-circle2"></div>
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <div class="service-text">
+                            <h2>UI design</h2>
+                            <p>UI Design création d’interfaces.Ergonomiques et dans l’air du temps, des interfaces pour sites vitrines, E-commerce, plateformes, logiciels SaaS, Web applications et Sites média.
+                            Nous vous apportons toute notre expérience en UI design (design d'interface) pour créer votre site accéssible et performant
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-service">
+                        <div class="logo-service">
+                            <div class="logo-circle1"></div>
+                            <div class="logo-circle2"></div>
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="service-text">
+                            <h2>SEO</h2>
+                            <p>ous nos sites sont optimisés pour le référencement naturel. La structure et les mots clefs sont nativement adaptés à votre objectif de positionnement dans les moteurs de recherche.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-projet"></div>
+    </section>
+
+    <!--portfolio -->
+    <section class="portfolio-projets">
+        <div class="body-portfolio">
+            <div class="bloc-portfolio">
+                <h1>Nos projets</h1>
+                <div class="feature">
+                    <hr />
+                    <div class="circle"></div>
+                </div>
+                <p>Trouvez le modèle parfait pour vous !<br />
+                    WebAgency vous accompagne dans la réalisation de vos projets de création quelqu'ils soit.</p>
+            </div>
+            <div class="menu-portfolio">
+                <input id="btn1" type="radio" name="input1" value="all-works" checked>
+                <label id="label1" for="btn1">All Works<span><i class="fas fa-caret-down"></i></span></label>
+                <input id="btn2" type="radio" name="input1" value="creative">
+                <label id="label2" for="btn2">Creative<span><i class="fas fa-caret-down"></i></span></label>
+                <input id="btn3" type="radio" name="input1" value="corporate">
+                <label id="label3" for="btn3">Corporate<span><i class="fas fa-caret-down"></i></span></label>
+                <input id="btn4" type="radio" name="input1" value="portfolio">
+                <label id="label4" for="btn4">Portfolio<span><i class="fas fa-caret-down"></i></span></label>
+            </div>
+            <div class="container-projets">
+
+                <figure class="projets">
+                    <img src="images/portfolio/01.jpg" alt="image1">
+                    <figcaption class="projets-fig">
+                        <h2>Consultez</h2>
+                        <p>Une Vue Magique</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/02.jpg" alt="image2">
+                    <figcaption class="projets-fig">
+                        <h2>Adopter</h2>
+                        <p>Un Compagnon Pour La Vie </p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/03.jpg" alt="image3">
+                    <figcaption class="projets-fig">
+                        <h2>Imprimerie</h2>
+                        <p>Personnaliser Vos vêtements</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/04.jpg" alt="image4">
+                    <figcaption class="projets-fig">
+                        <h2>Plan</h2>
+                        <p>Créez la maison de vos rêves</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/05.jpg" alt="image5">
+                    <figcaption class="projets-fig">
+                        <h2>Shopping</h2>
+                        <p>Commandez où que vous soyez </p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/06.jpg" alt="image6">
+                    <figcaption class="projets-fig">
+                        <h2>Voyager</h2>
+                        <p>Rêvez d'ailleurs</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/07.jpg" alt="image7">
+                    <figcaption class="projets-fig">
+                        <h2>Création</h2>
+                        <p>Application & Logo</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+
+                <figure class="projets">
+                    <img src="images/portfolio/08.jpg" alt="image8">
+                    <figcaption class=projets-fig>
+                        <h2>Bric à brac</h2>
+                        <p>Tout ce que vous voulez</p>
+                        <div class="circle-far"></div>
+                        <div><i class="far fa-eye"></i></div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!--contact -->
+    <section id="contact">
+        <div class="container-contact">
+            <div class="map">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6708.711414901346!2d2.3501871895990605!3d48.873765736553935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1559831629045!5m2!1sfr!2sfr" width="600" height="450" allowfullscreen></iframe>
+            </div>
+            <div class="calc-blue"></div>
+            <div class="formulaire">
+                <form method="post" action="formulaire">
+                    <h2>Contact Info</h2>
+                    <p><strong>WebAgency SAS</strong> <br />
+                    25 rue d'Hauteville 75010 Paris<br />
+                    Tél : 01 02 03 04 05</p>
+                    <div>
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <input class="message" type="button" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>   
+</body>
+</html>

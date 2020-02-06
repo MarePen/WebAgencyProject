@@ -1,0 +1,588 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff2') format('woff2'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: grey;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
+/* Header */
+#accueil {
+    padding-bottom: 60px;
+}
+/* barre de navigation */
+.topbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+.topbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a {
+    color: grey;
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+.menu a:hover {
+    color: #484B4E;
+    border-top: 3px solid #50A4BF;
+    padding-top: 35px;
+}
+
+.logo {
+    margin-right: 250px;
+}
+
+/* texte sur le slideshow */
+.slideshow .slider-text {
+    position: absolute;
+    color: #FFF;
+    margin-bottom: 20px;
+    line-height: 30px;
+    padding: 300px 360px;
+}
+
+.slideshow .slider-text strong {
+    line-height: 40px;
+    font-size: 3.6rem;
+    text-transform: uppercase;  
+}
+
+.slideshow .slider-text p {
+    font-size: 1.4rem;
+}
+
+.slideshow .slider-text span {
+    color: #50A4BF;
+}
+
+.slideshow .slider-text button {
+    font-family: 'roboto';
+    border: none;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px 25px;
+    font-size: 1.7rem;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #50A4BF;
+    cursor: pointer;
+    box-shadow: 0 9px #4F98AF;
+    outline: none;
+}
+
+.slideshow .slider-text button:hover {
+    transform: translateY(3px);
+    box-shadow: 0 6px #4F98AF;
+}
+
+.slideshow .slider-text button:active {
+    transform: translateY(7px);
+    box-shadow: 0 2px #4F98AF;
+}
+
+/* mise en place du slideshow */
+.slideshow {
+    position: relative;
+}
+
+.slideshow .container-slider {
+    height: auto;
+    color: #FFF;
+    overflow: hidden;
+    width: 100%;
+}
+
+.c-slider {
+    height: 98.33px;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.container-slider .slide {
+    width: 100%;
+    height: auto;
+}
+
+.container-slider .slide img {
+    width: 100%;
+    height: auto;
+}
+
+#one {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#two {
+    opacity: 0;
+    transition: all 1.5s ease-in-out;
+}
+
+#two:target {
+    opacity: 1;
+}
+
+.container-slider nav a {
+    z-index: 2;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-decoration: none;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-slider nav a:hover {
+    background: rgba(0, 0, 0, .6);
+}
+
+.preview {
+    left: -45px;
+}
+
+.next {
+    right: -45px;    
+}
+
+.preview i {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.next i {
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+#timeline-slider-one {
+    position: absolute;
+    float: left;
+    display: flex;
+    border: 3px solid #50A4BF;
+    width: 14%;
+    bottom: 9px;
+}
+
+#timeline-slider-two {
+    position: absolute;
+    float: left;    
+    display: flex;
+    border: 3px solid #50A4BF;
+    width: 14%;
+    bottom: 9px;
+    margin-left: 14%;
+}
+
+
+/* Services */
+#services {
+    padding-bottom: 60px;
+}
+/* titre/design/texte */
+.body-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-services {
+    text-align: center;
+    justify-content: center;
+}
+
+.feature {
+    position: relative;
+    bottom: 10px;
+}
+
+.feature hr {
+    width: 180px;
+}
+
+.circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #50A4BF;
+    border: 5px solid #FFF;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -12px;
+}
+/* partie liste des services et image */
+.pc-list {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.pc {
+    width: 850px;
+    height: auto;
+}
+
+.pc img {
+    width: 100%;
+    height: auto;
+}
+
+.container-list-service {
+    margin-left: 80px;
+    margin-top: 100px;
+    height: 600px;
+    width: 42%;
+}
+
+.list-service {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    height: 170px;
+}
+
+.logo-service {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin-right: 20px;
+    top: 20px;
+}
+
+.logo-circle1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(222, 223, 224);
+}
+
+.logo-circle2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(92, 173, 211);
+    border: 4px solid white;
+    left: 65px;
+    top: 29px;
+}
+
+.logo-service .fas {
+    position: relative;
+    color: rgb(92, 173, 211);
+    font-size: 30px;
+    left: 23px;
+    top: 3px;
+}
+
+.service-text {
+    width: calc(100% - 90px);
+}
+
+.service-text h2 {
+    margin-bottom: -10px;
+}
+
+/* Portfolio */
+.portfolio-projets {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bloc-portfolio {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+/* barre de menu */
+.menu-portfolio {
+    position: relative;
+    justify-content: center;
+    margin: 100px auto;
+    width: 480px;
+    height: 50px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    text-align: center;
+    box-shadow: 0 4px rgb(229, 229, 229);
+    border-radius: 6px 6px 6px 6px;
+  }
+
+.menu-portfolio input {
+    display: none;
+}
+
+.menu-portfolio span {
+    display: none;
+}
+
+.menu-portfolio .fas {
+    position: absolute;
+    color: rgb(71, 139, 160);
+    font-size: 26px;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+.menu-portfolio > label {
+    width: 25%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(229, 229, 229);
+}
+
+#label1 {
+    border-radius: 6px 0 0 6px;
+}
+
+#label4 {
+    border-radius: 0 6px 6px 0;
+}
+
+label:hover {
+    background-color: #50A4BF;
+    color: #FFF;
+    box-shadow: 0 4px rgb(71, 139, 160);
+}
+
+label:hover span {
+    display: block;
+}
+
+#btn1:checked ~ #label1,
+#btn2:checked ~ #label2,
+#btn3:checked ~ #label3,
+#btn4:checked ~ #label4 {
+    background-color: #50A4BF;
+    color: #FFF;
+    box-shadow: 0 4px rgb(71, 139, 160);
+}
+
+#btn1:checked ~ #label1 > span,
+#btn2:checked ~ #label2 > span,
+#btn3:checked ~ #label3 > span,
+#btn4:checked ~ #label4 > span {
+    display: block;
+}
+/* les projets réalisés */
+.container-projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projets {
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    margin: 15px;
+    width: 20%;
+}
+
+.projets img {
+    width: 100%;
+}
+
+.projets-fig {
+    line-height: 15px;
+    display: none;
+    position: absolute;
+    color: #FFF;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.projets-fig h2 {
+    font-family: 'roboto';
+    color: #FFF;
+}
+
+.projets img:hover ~ .projets-fig, .projets-fig:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.projets .far {
+    position: absolute;
+    font-size: 1.1rem;
+    top: -8px;
+    right: 45px;
+}
+
+.circle-far {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #50A4BF;
+    bottom: 65px;
+    right: 25px;
+}/* Contact */
+.body-services {
+    width: 100%;
+    height: auto;
+}
+
+.container-contact {
+    position: relative;
+    width: 100%;
+}
+/* carte intéractive et voile bleu */
+.map {
+    position: absolute;
+    width: 100%;
+}
+
+.container-contact iframe {
+    width: 100%;
+}
+
+.calc-blue {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(92,173,211, .3);
+    pointer-events: none;
+}
+/* formulaire de contact */
+.formulaire {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 22px;
+    right: 100px;
+}
+
+.formulaire strong {
+    color: #5A5F64;
+}
+
+.formulaire form {
+    background-color: rgba(255, 255, 255, .8);
+    margin: 100px 0;
+    width: 400px;
+    height: 75%;
+    padding: 30px;
+}
+
+.formulaire form h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 180%;
+}
+
+.formulaire input {
+    font-family: 'roboto';
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.formulaire textarea {
+    font-family: 'roboto';
+    font-size: 15px;
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.formulaire .message {
+    font-family: 'roboto';
+    color: white;
+    background-color: rgb(92, 173, 211);
+    border-radius: 6px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    width: 40%;
+    text-decoration: none;
+    margin-top: 10px;
+}
