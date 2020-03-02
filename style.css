@@ -441,6 +441,8 @@ label:hover span {
 #btn4:checked ~ #label4 > span {
     display: block;
 }
+
+
 /* les projets réalisés */
 .container-projets {
     display: flex;
@@ -499,6 +501,8 @@ label:hover span {
     background-color: #50A4BF;
     bottom: 65px;
     right: 25px;
+
+
 }/* Contact */
 .body-services {
     width: 100%;
